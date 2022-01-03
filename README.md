@@ -1,7 +1,12 @@
 # React Native project
 ---
 **Important Note**
-please make this change in ``
+please make this change in `node_modules/expo/AppEntry.js`
+```
+...
+import App from '../../src/App';
+...
+```
 
 ## how to get up and running
 ---
