@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import ListCard from './reusableComponents/ListCard';
 
 class ListViewScreen extends Component {
     render() {
@@ -9,6 +10,7 @@ class ListViewScreen extends Component {
                 <View style={header}>
                     <Text style={{fontSize: '20', fontWeight: 'bold'}}>Image Gallery</Text> 
                 </View>
+                    <ListCard />
             </View>
         );
     }
